@@ -33,7 +33,8 @@
   <li><b>1.2.2</b> - Se "tipo de curso" for "ONLINE" então usuário preenche campo "link de inscrição";</li>
   <li><b>1.3</b> - Clica no botão "CADASTRAR CURSO";</li>
   <li><b>1.4</b> - Curso é cadastrado com mensagem de sucesso e usuário é redirecionado para a lista dos cursos cadastrados;</li>
-</ul>  
+</ul>
+<img src="assets/cadastro de curso.svg" alt="Fluxo de cadastro de curso." width="600px">  
 </div>  
   
 </div>
