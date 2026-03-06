@@ -28,13 +28,25 @@
 <h3>1 - CADASTRO DE CURSO</h3>
 <ul>
   <li><b>1.1</b> - Usuário acessa a tela de cadastro;</li>
-  <li><b>1.2</b> - Preenche os campos do formulário ("nome do curso", "descrição", "instrutor", "url da imagem da capa", "data início/fim", "número de vagas", "tipo de curso");</li>
+  <li><b>1.2</b> - Preenche os campos do formulário: "nome do curso", "descrição", "instrutor", "url da imagem da capa", "data início/fim", "número de vagas", "tipo de curso";</li>
   <li><b>1.2.1</b> - Se "tipo de curso" for "PRESENCIAL" então usuário preenche campo "endereço";</li>
   <li><b>1.2.2</b> - Se "tipo de curso" for "ONLINE" então usuário preenche campo "link de inscrição";</li>
   <li><b>1.3</b> - Clica no botão "CADASTRAR CURSO";</li>
   <li><b>1.4</b> - Curso é cadastrado com mensagem de sucesso e usuário é redirecionado para a lista dos cursos cadastrados;</li>
 </ul>
 <img src="assets/cadastro de curso.svg" alt="Fluxo de cadastro de curso." width="600px">  
+</div>
+
+<!-- FLUXO 2-->
+<div>
+<h3>2 - LISTAGEM DE CURSOS</h3>
+<ul>
+  <li><b>2.1</b> - Usuário acessa a tela de listagem;</li>
+  <li><b>2.2</b> - Servidor retorna a lista de cursos cadastrados;</li>
+  <li><b>2.3</b> - Usuário visualiza os cursos na lista com os campos: "tipo de curso" ,"nome do curso", "descrição", "data início/fim", "número de vagas", botão "EXCLUIR CURSO";</li>
+  <li><b>2.3.1</b> - Caso não haja cursos cadastrados, página fica em branco apenas com título e navbar.</li>
+</ul>
+<img src="assets/listagem de curso.svg" alt="Fluxo de listagem de cursos." width="600px">  
 </div>  
   
 </div>
